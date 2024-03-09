@@ -1,0 +1,14 @@
+C:\codigo\AppSinHilos\bin\Debug\net8.0\AppSinHilos.exe
+C:\codigo\AppSinHilos\bin\Debug\net8.0\AppSinHilos.deps.json
+C:\codigo\AppSinHilos\bin\Debug\net8.0\AppSinHilos.runtimeconfig.json
+C:\codigo\AppSinHilos\bin\Debug\net8.0\AppSinHilos.dll
+C:\codigo\AppSinHilos\bin\Debug\net8.0\AppSinHilos.pdb
+C:\codigo\AppSinHilos\obj\Debug\net8.0\AppSinHilos.GeneratedMSBuildEditorConfig.editorconfig
+C:\codigo\AppSinHilos\obj\Debug\net8.0\AppSinHilos.AssemblyInfoInputs.cache
+C:\codigo\AppSinHilos\obj\Debug\net8.0\AppSinHilos.AssemblyInfo.cs
+C:\codigo\AppSinHilos\obj\Debug\net8.0\AppSinHilos.csproj.CoreCompileInputs.cache
+C:\codigo\AppSinHilos\obj\Debug\net8.0\AppSinHilos.dll
+C:\codigo\AppSinHilos\obj\Debug\net8.0\refint\AppSinHilos.dll
+C:\codigo\AppSinHilos\obj\Debug\net8.0\AppSinHilos.pdb
+C:\codigo\AppSinHilos\obj\Debug\net8.0\AppSinHilos.genruntimeconfig.cache
+C:\codigo\AppSinHilos\obj\Debug\net8.0\ref\AppSinHilos.dll
