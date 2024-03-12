@@ -1,0 +1,14 @@
+C:\codigo\AppConHilosTres\obj\Debug\net8.0\AppConHilosTres.GeneratedMSBuildEditorConfig.editorconfig
+C:\codigo\AppConHilosTres\obj\Debug\net8.0\AppConHilosTres.AssemblyInfoInputs.cache
+C:\codigo\AppConHilosTres\obj\Debug\net8.0\AppConHilosTres.AssemblyInfo.cs
+C:\codigo\AppConHilosTres\obj\Debug\net8.0\AppConHilosTres.csproj.CoreCompileInputs.cache
+C:\codigo\AppConHilosTres\bin\Debug\net8.0\AppConHilosTres.exe
+C:\codigo\AppConHilosTres\bin\Debug\net8.0\AppConHilosTres.deps.json
+C:\codigo\AppConHilosTres\bin\Debug\net8.0\AppConHilosTres.runtimeconfig.json
+C:\codigo\AppConHilosTres\bin\Debug\net8.0\AppConHilosTres.dll
+C:\codigo\AppConHilosTres\bin\Debug\net8.0\AppConHilosTres.pdb
+C:\codigo\AppConHilosTres\obj\Debug\net8.0\AppConHilosTres.dll
+C:\codigo\AppConHilosTres\obj\Debug\net8.0\refint\AppConHilosTres.dll
+C:\codigo\AppConHilosTres\obj\Debug\net8.0\AppConHilosTres.pdb
+C:\codigo\AppConHilosTres\obj\Debug\net8.0\AppConHilosTres.genruntimeconfig.cache
+C:\codigo\AppConHilosTres\obj\Debug\net8.0\ref\AppConHilosTres.dll
