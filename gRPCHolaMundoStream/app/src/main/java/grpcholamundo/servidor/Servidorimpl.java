@@ -7,7 +7,6 @@ import com.proto.saludo.Holamundo.SaludoResponse;
 import io.grpc.stub.StreamObserver;
 
 public class Servidorimpl extends SaludoServiceGrpc.SaludoServiceImplBase {
-
     @Override
     public void saludo (SaludoRequest request, StreamObserver<SaludoResponse> responseObserver) {
         //respuesta a enviar al cliente
@@ -19,12 +18,10 @@ public class Servidorimpl extends SaludoServiceGrpc.SaludoServiceImplBase {
         //avisar que ha terminado
         responseObserver.onCompleted();
     }
-
-    public void saludoStream(SaludoRequest request, StreamObserver<SaludoResponse> responseObserver) {
-        //misma funcionalidad pero añadiendo el ciclo for para envío de múltiples chunks de datos
-        for (int i = 0; i <= 10; i++){
-            SaludoResponse respuesta = SaludoResponse.newBuilder().setResultado("Hola " + request.getNombre() + "por " + i + "vez").build();
-
+    public void saludoStream (SaludoRequest request, StreamObserver<SaludoResponse> responseObserver) {
+        for (int i = 0; i <= 10; i++) {
+            SaludoResponse respuesta = SaludoResponse.newBuilder()
+            .setResultado("Hola " + request.getNombre() + "por " + i + "Vez").build();
             responseObserver.onNext(respuesta);
         }
         responseObserver.onCompleted();

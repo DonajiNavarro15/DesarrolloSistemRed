@@ -1,9 +1,6 @@
 package grpcholamundo.cliente;
 
 import com.proto.saludo.SaludoServiceGrpc;
-
-import java.util.Iterator;
-
 import com.proto.saludo.Holamundo.SaludoRequest;
 import com.proto.saludo.Holamundo.SaludoResponse;
 
@@ -19,25 +16,24 @@ public class Cliente {
             .forAddress(host, puerto)
             .usePlaintext()
             .build();
-
-        saludarUnario(channel);
+        saludoUnitario(channel);
         saludarStream(channel);
-
         System.out.println("Apagando...");
         channel.shutdown();
-    }
 
-    public static void saludarUnario(ManagedChannel channel) {
-        //referencia al stub
+    }
+    public static void saludoUnitario(ManagedChannel channel) {
         SaludoServiceGrpc.SaludoServiceBlockingStub stub = SaludoServiceGrpc.newBlockingStub(channel);
-        //construcción de la petición enviando un parámetro
         SaludoRequest peticion = SaludoRequest.newBuilder().setNombre("Donaji").build();
-        
+        SaludoResponse respuesta = stub.saludo(peticion);
+        System.out.println("Respuesta RPC: " + respuesta.getResultado());
+
     }
     public static void saludarStream(ManagedChannel channel) {
         SaludoServiceGrpc.SaludoServiceBlockingStub stub = SaludoServiceGrpc.newBlockingStub(channel);
         SaludoRequest peticion = SaludoRequest.newBuilder().setNombre("Donaji").build();
-        SaludoResponse respuesta = stub.saludo(peticion);
-        
+        stub.saludoStream(peticion).forEachRemaining(respuesta -> {
+            System.out.println("Respuesta RPC: " + respuesta.getResultado());
+        });
     }
 }

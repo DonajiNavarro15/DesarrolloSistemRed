@@ -9,5 +9,6 @@ message SaludoResponse {
 }
 
 service SaludoService {
-    rpc saludo(SaludoRequest) returns (stream SaludoResponse);
+    rpc saludo(SaludoRequest) returns (SaludoResponse);
+    rpc saludoStream(SaludoRequest) returns (stream SaludoResponse);
 }

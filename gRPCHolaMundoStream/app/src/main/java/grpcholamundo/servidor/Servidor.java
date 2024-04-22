@@ -22,11 +22,10 @@ public class Servidor {
 
         //al recibir la solicitud de apagado
         Runtime.getRuntime().addShutdownHook(new Thread() {
-            @Override
             public void run() {
                 System.out.println("Recibiendo solicitud de apagado");
                 servidor.shutdown();
-                System.out.println("Servidor detenido");
+                System.out.println("Servidoe detenido");
             } 
         });
 

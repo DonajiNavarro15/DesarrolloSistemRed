@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppConHilosTres")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80ab50fa02d00b6da29b3f37b4dda5a6b207d58f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppConHilosTres")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppConHilosTres")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
