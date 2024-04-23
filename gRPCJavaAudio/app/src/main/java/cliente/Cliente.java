@@ -19,6 +19,9 @@ import com.proto.audio.AudioServiceGrpc;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
+import javazoom.jl.player.Player;
+
+
 
 public class Cliente {
     public static void main(String[] args) {
@@ -121,6 +124,8 @@ public class Cliente {
     public static void playMp3 (ByteArrayInputStream inStream, String nombre){
         try {
             System.out.println("Recibiendo");
+            Player player = new Player(inStream);
+            player.play();
             
         } catch (Exception e) {
             System.out.println("error");
